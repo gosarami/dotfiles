@@ -1,0 +1,18 @@
+format = """
+$hostname\
+$shlvl\
+$kubernetes\
+$golang\
+$directory\
+$git_branch\
+$git_commit\
+$line_break\
+$jobs\
+$battery\
+$time\
+$status\
+$character"""
+
+[kubernetes]
+format = 'on [⛵ $context \($namespace\)](dimmed green) '
+disabled = false
