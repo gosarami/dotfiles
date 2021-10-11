@@ -2,10 +2,10 @@ format = """
 $hostname\
 $shlvl\
 $kubernetes\
-$golang\
 $directory\
 $git_branch\
 $git_commit\
+$golang\
 $line_break\
 $jobs\
 $battery\
